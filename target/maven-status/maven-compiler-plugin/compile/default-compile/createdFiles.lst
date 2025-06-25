@@ -1,0 +1,8 @@
+Aggregator.class
+coingecko/CryptoPriceFetcher.class
+firestore/FirestoreReader.class
+networking/WebClient.class
+firestore/FirestoreWriter.class
+TestGuardarPrecios.class
+Application.class
+WebServer.class

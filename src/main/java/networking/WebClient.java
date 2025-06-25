@@ -32,10 +32,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class WebClient {
     private HttpClient client;
-    String url = "http://localhost:8081/task";
-    String comando = "get-prices";
-    CompletableFuture<String> respuesta = client.sendTask(url, comando.getBytes());
-    respuesta.thenAccept(System.out::println);
+    
     public WebClient() {
         this.client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_1_1)
